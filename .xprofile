@@ -10,7 +10,9 @@
 # Environment variables
 #
 
-xmodmap ~/.xmodmap
+xmodmap ~/.Xmodmap
+
+feh --bg-scale ~/image/wallpaper/theflash.png
 
 # fcitx
 export GTK_IM_MODULE=fcitx
