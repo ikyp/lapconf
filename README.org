@@ -1,0 +1,7 @@
+#+TITLE: *LapConf*
+#+AUTHOR: ikyp
+#+DATE: 2016-12-16 07:50 pm
+
+* Intro
+
+  All of my laptop config stuff.
