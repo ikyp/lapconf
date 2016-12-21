@@ -10,13 +10,14 @@
 # Environment variables
 #
 
-xmodmap ~/.Xmodmap
-
 feh --bg-scale ~/image/wallpaper/theflash.png
 
 # fcitx
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS="@im=fcitx"
+
+xsetroot -cursor_name right_ptr
+setxkbmap -option ctrl:swapcaps
 
 exec fcitx &
