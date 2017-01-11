@@ -70,7 +70,7 @@ alias gp14='g++ -std=c++1y'
 alias g3compile='gcc `pkg-config --cflags gtk+-3.0 --libs gtk+-3.0`'
 alias c3compile='clang `pkg-config --cflags gtk+-3.0 --libs gtk+-3.0`'
 
-alias vleakshow='valgrind --leak-check=full --show-leak-kinds=all -v'
+alias vleakshow='valgrind --leak-resolution=high --leak-check=full --show-reachable=yes --show-emwarns=yes --show-mismatched-frees=yes --show-below-main=yes --track-origins=yes -v'
 
 alias psync='sudo pacman -Sy'
 alias pud='sudo pacman -Syu'
