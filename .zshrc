@@ -51,6 +51,7 @@ alias wats='whatis'
 alias seps='ps aux | grep'
 alias shutnow='shutdown -h now'
 alias sushut='sudo shutdown -h'
+alias chbri='xrandr --output eDP1 --brightness'
 
 alias memcpu='ps -eo pcpu,pmem,pid,user,args | sort -r -k1 | less'
 
