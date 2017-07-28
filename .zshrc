@@ -1,3 +1,4 @@
+# Created by newuser for 5.3.1
 autoload -U colors && colors
 autoload -U compinit promptinit
 compinit
@@ -24,7 +25,7 @@ alias np='nano PKGBUILD'
 alias bintime='/usr/bin/time -v'
 
 alias suna='sudo nano'
-alias srm='sudo rm'
+alias surm='sudo rm'
 alias sucp='sudo cp -i'
 alias sucpr='sudo cp -Rf'
 alias smv='sudo mv'
