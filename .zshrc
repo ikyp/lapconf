@@ -1,4 +1,3 @@
-# Created by newuser for 5.3.1
 autoload -U colors && colors
 autoload -U compinit promptinit
 compinit
@@ -25,7 +24,7 @@ alias np='nano PKGBUILD'
 alias bintime='/usr/bin/time -v'
 
 alias suna='sudo nano'
-alias surm='sudo rm'
+alias srm='sudo rm'
 alias sucp='sudo cp -i'
 alias sucpr='sudo cp -Rf'
 alias smv='sudo mv'
@@ -52,7 +51,7 @@ alias wats='whatis'
 alias seps='ps aux | grep'
 alias shutnow='shutdown -h now'
 alias sushut='sudo shutdown -h'
-alias chbri='xrandr --output eDP1 --brightness'
+alias chbri='xrandr --output eDP-1 --brightness'
 
 alias memcpu='ps -eo pcpu,pmem,pid,user,args | sort -r -k1 | less'
 
