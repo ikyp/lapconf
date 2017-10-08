@@ -108,3 +108,6 @@ alias grm='git rm'
 alias gmv='git mv'
 alias grmv='git remote mv'
 alias grad='git remote add origin'
+
+# OPAM configuration
+. /home/ikyp/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
